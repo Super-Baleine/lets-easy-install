@@ -1,5 +1,5 @@
 #!/bin/sh
-apt-get update;sleep 1s;apt-get install git -y;sleep 1;
+apt-get update;sleep 1s;apt-get install git -y;sleep 1s;
 cd /opt/;
 git clone https://github.com/letsencrypt/letsencrypt.git;sleep 1s
 cd letsencrypt
